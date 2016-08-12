@@ -14,6 +14,7 @@
 		335010C61D5976DA0060AE35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335010C41D5976DA0060AE35 /* LaunchScreen.storyboard */; };
 		335010D11D5976DA0060AE35 /* SFMessagingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335010D01D5976DA0060AE35 /* SFMessagingTests.swift */; };
 		335010DC1D5976DB0060AE35 /* SFMessagingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335010DB1D5976DB0060AE35 /* SFMessagingUITests.swift */; };
+		33F7678A1D5D5116006B1762 /* SFMLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F767891D5D5116006B1762 /* SFMLoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		335010D71D5976DA0060AE35 /* SFMessagingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFMessagingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		335010DB1D5976DB0060AE35 /* SFMessagingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFMessagingUITests.swift; sourceTree = "<group>"; };
 		335010DD1D5976DB0060AE35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F767891D5D5116006B1762 /* SFMLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SFMLoginVC.swift; path = ViewControllers/SFMLoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		335010BA1D5976DA0060AE35 /* SFMessaging */ = {
 			isa = PBXGroup;
 			children = (
+				33F7678B1D5D511A006B1762 /* ViewControllers */,
 				335010BB1D5976DA0060AE35 /* AppDelegate.swift */,
 				335010BD1D5976DA0060AE35 /* ViewController.swift */,
 				335010BF1D5976DA0060AE35 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				335010DD1D5976DB0060AE35 /* Info.plist */,
 			);
 			path = SFMessagingUITests;
+			sourceTree = "<group>";
+		};
+		33F7678B1D5D511A006B1762 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				33F767891D5D5116006B1762 /* SFMLoginVC.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				335010BE1D5976DA0060AE35 /* ViewController.swift in Sources */,
 				335010BC1D5976DA0060AE35 /* AppDelegate.swift in Sources */,
+				33F7678A1D5D5116006B1762 /* SFMLoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Han.SFMessaging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -416,6 +429,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Han.SFMessaging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,6 +498,7 @@
 				335010E21D5976DB0060AE35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		335010E31D5976DB0060AE35 /* Build configuration list for PBXNativeTarget "SFMessagingTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +507,7 @@
 				335010E51D5976DB0060AE35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		335010E61D5976DB0060AE35 /* Build configuration list for PBXNativeTarget "SFMessagingUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +516,7 @@
 				335010E81D5976DB0060AE35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
