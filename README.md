@@ -1,1 +1,4 @@
-# Swift-Firebase-Messaging-App
+# Swift Firebase Messaging App
+
+Development is in progress.
+
