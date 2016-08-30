@@ -2,11 +2,14 @@
 
 platform :ios, '9.0'
 
+use_frameworks!
+
 target 'SFMessaging' do
 
-  use_frameworks!
-
-  pod 'Firebase'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/Database'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
   pod 'JSQMessagesViewController'
 
 end
