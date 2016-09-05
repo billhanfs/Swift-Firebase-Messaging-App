@@ -10,6 +10,8 @@ import UIKit
 
 class SFMLoginVC: UIViewController {
     
+    // MARK: - View Lifecycle -
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,5 +21,22 @@ class SFMLoginVC: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    // MARK: - Button Events -
+    
+    @IBAction func onSignInBtn_Pressed(sender: AnyObject) {
+        
+        
+    }
+    
+    @IBAction func onForgotPasswordBtn_Pressed(sender: AnyObject) {
+        
+        
+    }
+    
+    @IBAction func onCreateAccountBtn_Pressed(sender: AnyObject) {
+        
+        
     }
 }
