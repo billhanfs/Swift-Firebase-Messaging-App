@@ -52,7 +52,6 @@
                                 <rect key="frame" x="60" y="270" width="200" height="35"/>
                                 <color key="backgroundColor" red="0.2274509804" green="0.51764705879999995" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="Hvb-sO-4AX"/>
                                     <constraint firstAttribute="height" constant="35" id="vSd-qH-0rh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
@@ -63,8 +62,11 @@
                                     <action selector="onSignInBtn_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kb1-La-fQJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je3-G0-KqF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je3-G0-KqF">
                                 <rect key="frame" x="85" y="320" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="GOy-9m-DAt"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
                                 <state key="normal" title="Forgot Password">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -89,12 +91,15 @@
                             <constraint firstAttribute="trailing" secondItem="cwG-hV-WFF" secondAttribute="trailing" constant="60" id="8we-80-xe3"/>
                             <constraint firstItem="qd4-Xa-mho" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="ByP-aU-ARk"/>
                             <constraint firstAttribute="trailing" secondItem="qd4-Xa-mho" secondAttribute="trailing" constant="40" id="C1g-Ld-zGe"/>
+                            <constraint firstAttribute="trailing" secondItem="je3-G0-KqF" secondAttribute="trailing" constant="85" id="Pa7-MZ-8lm"/>
                             <constraint firstItem="HCv-u1-WcH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="RY3-aI-wTk"/>
                             <constraint firstAttribute="trailing" secondItem="HCv-u1-WcH" secondAttribute="trailing" constant="60" id="TkV-h5-t4u"/>
                             <constraint firstItem="HCv-u1-WcH" firstAttribute="top" secondItem="qd4-Xa-mho" secondAttribute="bottom" constant="30" id="W04-OT-wYX"/>
                             <constraint firstItem="chk-JN-WBf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="WKL-jM-jNG"/>
                             <constraint firstItem="chk-JN-WBf" firstAttribute="top" secondItem="cwG-hV-WFF" secondAttribute="bottom" constant="30" id="cx4-Bl-3uv"/>
                             <constraint firstItem="cwG-hV-WFF" firstAttribute="top" secondItem="HCv-u1-WcH" secondAttribute="bottom" constant="20" id="esR-XW-gut"/>
+                            <constraint firstItem="je3-G0-KqF" firstAttribute="top" secondItem="chk-JN-WBf" secondAttribute="bottom" constant="15" id="j4J-LT-PZ1"/>
+                            <constraint firstItem="je3-G0-KqF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="85" id="qXl-3M-B4I"/>
                             <constraint firstItem="qd4-Xa-mho" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="vG9-Wz-7yM"/>
                         </constraints>
                     </view>
