@@ -25,17 +25,17 @@ class SFMLoginVC: UIViewController {
     
     // MARK: - Button Events -
     
-    @IBAction func onSignInBtn_Pressed(sender: AnyObject) {
+    @IBAction func onSignInBtn_Pressed(_ sender: AnyObject) {
         
         
     }
     
-    @IBAction func onForgotPasswordBtn_Pressed(sender: AnyObject) {
+    @IBAction func onForgotPasswordBtn_Pressed(_ sender: AnyObject) {
         
         
     }
     
-    @IBAction func onCreateAccountBtn_Pressed(sender: AnyObject) {
+    @IBAction func onCreateAccountBtn_Pressed(_ sender: AnyObject) {
         
         
     }
