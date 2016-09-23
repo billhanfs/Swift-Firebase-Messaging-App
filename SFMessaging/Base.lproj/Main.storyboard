@@ -20,11 +20,10 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Firebase Messaging" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qd4-Xa-mho">
-                                <frame key="frameInset" minX="40" minY="100" width="240" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Firebase Messaging" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qd4-Xa-mho">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="V9e-QH-oJS"/>
                                 </constraints>
@@ -32,24 +31,21 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HCv-u1-WcH">
-                                <frame key="frameInset" minX="60" minY="160" width="200" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HCv-u1-WcH">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="3gc-0c-G1h"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cwG-hV-WFF">
-                                <frame key="frameInset" minX="60" minY="210" width="200" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cwG-hV-WFF">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="fgt-PM-dIm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chk-JN-WBf">
-                                <frame key="frameInset" minX="60" minY="270" width="200" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chk-JN-WBf">
                                 <color key="backgroundColor" red="0.2274509804" green="0.51764705879999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="vSd-qH-0rh"/>
@@ -62,8 +58,7 @@
                                     <action selector="onSignInBtn_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kb1-La-fQJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je3-G0-KqF">
-                                <frame key="frameInset" minX="85" minY="320" width="150" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je3-G0-KqF">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="GOy-9m-DAt"/>
                                 </constraints>
@@ -75,9 +70,10 @@
                                     <action selector="onForgotPasswordBtn_Pressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q6Y-Uf-E0D"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXH-AC-bSn">
-                                <frame key="frameInset" minX="85" minY="360" width="150" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXH-AC-bSn">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="A8d-d7-Pzz"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                 <state key="normal" title="Create Account"/>
                                 <connections>
@@ -94,6 +90,7 @@
                             <constraint firstAttribute="trailing" secondItem="qd4-Xa-mho" secondAttribute="trailing" constant="40" id="C1g-Ld-zGe"/>
                             <constraint firstAttribute="trailing" secondItem="je3-G0-KqF" secondAttribute="trailing" constant="85" id="Pa7-MZ-8lm"/>
                             <constraint firstItem="HCv-u1-WcH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="RY3-aI-wTk"/>
+                            <constraint firstItem="MXH-AC-bSn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="85" id="TG0-cn-AbB"/>
                             <constraint firstAttribute="trailing" secondItem="HCv-u1-WcH" secondAttribute="trailing" constant="60" id="TkV-h5-t4u"/>
                             <constraint firstItem="HCv-u1-WcH" firstAttribute="top" secondItem="qd4-Xa-mho" secondAttribute="bottom" constant="30" id="W04-OT-wYX"/>
                             <constraint firstItem="chk-JN-WBf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="60" id="WKL-jM-jNG"/>
@@ -102,6 +99,8 @@
                             <constraint firstItem="je3-G0-KqF" firstAttribute="top" secondItem="chk-JN-WBf" secondAttribute="bottom" constant="15" id="j4J-LT-PZ1"/>
                             <constraint firstItem="je3-G0-KqF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="85" id="qXl-3M-B4I"/>
                             <constraint firstItem="qd4-Xa-mho" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="vG9-Wz-7yM"/>
+                            <constraint firstItem="MXH-AC-bSn" firstAttribute="top" secondItem="je3-G0-KqF" secondAttribute="bottom" constant="10" id="zHH-fF-wtE"/>
+                            <constraint firstAttribute="trailing" secondItem="MXH-AC-bSn" secondAttribute="trailing" constant="85" id="zWV-Mn-u28"/>
                         </constraints>
                     </view>
                 </viewController>
