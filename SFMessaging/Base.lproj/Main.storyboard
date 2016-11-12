@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -20,10 +23,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Firebase Messaging" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qd4-Xa-mho">
+                                <rect key="frame" x="40" y="100" width="295" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="V9e-QH-oJS"/>
                                 </constraints>
@@ -32,6 +36,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HCv-u1-WcH">
+                                <rect key="frame" x="60" y="160" width="255" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="3gc-0c-G1h"/>
                                 </constraints>
@@ -39,6 +44,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cwG-hV-WFF">
+                                <rect key="frame" x="60" y="210" width="255" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="fgt-PM-dIm"/>
                                 </constraints>
@@ -46,6 +52,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chk-JN-WBf">
+                                <rect key="frame" x="60" y="270" width="255" height="35"/>
                                 <color key="backgroundColor" red="0.2274509804" green="0.51764705879999995" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="vSd-qH-0rh"/>
@@ -59,6 +66,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je3-G0-KqF">
+                                <rect key="frame" x="85" y="320" width="205" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="GOy-9m-DAt"/>
                                 </constraints>
@@ -71,6 +79,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MXH-AC-bSn">
+                                <rect key="frame" x="85" y="360" width="205" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="A8d-d7-Pzz"/>
                                 </constraints>
@@ -103,6 +112,11 @@
                             <constraint firstAttribute="trailing" secondItem="MXH-AC-bSn" secondAttribute="trailing" constant="85" id="zWV-Mn-u28"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="_emailTF" destination="HCv-u1-WcH" id="HaN-ck-qht"/>
+                        <outlet property="_passwordTF" destination="cwG-hV-WFF" id="SDL-zF-iRV"/>
+                        <outlet property="_signInBtn" destination="chk-JN-WBf" id="bPf-gi-5g8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

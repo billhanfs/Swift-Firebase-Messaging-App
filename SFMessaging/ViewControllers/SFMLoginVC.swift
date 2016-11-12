@@ -10,6 +10,10 @@ import UIKit
 
 class SFMLoginVC: UIViewController {
     
+    @IBOutlet weak var _emailTF: UITextField!
+    @IBOutlet weak var _passwordTF: UITextField!
+    @IBOutlet weak var _signInBtn: UIButton!
+    
     // MARK: - View Lifecycle -
     
     override func viewDidLoad() {
