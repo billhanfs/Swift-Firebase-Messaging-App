@@ -19,7 +19,7 @@ class SFMLoginVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        _emailTF.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
