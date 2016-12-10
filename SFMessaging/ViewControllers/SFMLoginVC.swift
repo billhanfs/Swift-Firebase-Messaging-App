@@ -22,11 +22,6 @@ class SFMLoginVC: UIViewController {
         _emailTF.becomeFirstResponder()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     // MARK: - Button Events -
     
     @IBAction func onSignInBtn_Pressed(_ sender: AnyObject) {
