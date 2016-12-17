@@ -20,6 +20,9 @@ class SFMLoginVC: UIViewController {
         super.viewDidLoad()
 
         _emailTF.becomeFirstResponder()
+        
+        _signInBtn.layer.cornerRadius = 3
+        _signInBtn.layer.masksToBounds = true
     }
 
     // MARK: - Button Events -
