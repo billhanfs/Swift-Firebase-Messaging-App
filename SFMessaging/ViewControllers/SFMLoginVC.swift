@@ -21,7 +21,7 @@ class SFMLoginVC: UIViewController {
 
         _emailTF.becomeFirstResponder()
         
-        _signInBtn.layer.cornerRadius = 3
+        _signInBtn.layer.cornerRadius = 2
         _signInBtn.layer.masksToBounds = true
     }
 
