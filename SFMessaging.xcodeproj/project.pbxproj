@@ -15,6 +15,7 @@
 		335010DC1D5976DB0060AE35 /* SFMessagingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335010DB1D5976DB0060AE35 /* SFMessagingUITests.swift */; };
 		33F7678A1D5D5116006B1762 /* SFMLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F767891D5D5116006B1762 /* SFMLoginVC.swift */; };
 		6A5BD131A9A464A2806C76F8 /* Pods_SFMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AE7A4F5CE2A187755B6BA1 /* Pods_SFMessaging.framework */; };
+		A90EB5941E6A45B100E9DF2F /* SFMSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90EB5931E6A45B100E9DF2F /* SFMSignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		33F767891D5D5116006B1762 /* SFMLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SFMLoginVC.swift; path = ViewControllers/SFMLoginVC.swift; sourceTree = "<group>"; };
 		4EA9C77BE69321656D4DDBA2 /* Pods-SFMessaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFMessaging.release.xcconfig"; path = "Pods/Target Support Files/Pods-SFMessaging/Pods-SFMessaging.release.xcconfig"; sourceTree = "<group>"; };
 		66AE7A4F5CE2A187755B6BA1 /* Pods_SFMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90EB5931E6A45B100E9DF2F /* SFMSignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SFMSignUpVC.swift; path = ViewControllers/SFMSignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				33F767891D5D5116006B1762 /* SFMLoginVC.swift */,
+				A90EB5931E6A45B100E9DF2F /* SFMSignUpVC.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 			files = (
 				335010BC1D5976DA0060AE35 /* AppDelegate.swift in Sources */,
 				33F7678A1D5D5116006B1762 /* SFMLoginVC.swift in Sources */,
+				A90EB5941E6A45B100E9DF2F /* SFMSignUpVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
